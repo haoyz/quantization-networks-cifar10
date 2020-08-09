@@ -10,8 +10,8 @@ The main changes are:
 2. A unified training script for full-precision, weight quantization and activation quantization.
 3. Training curve visualization using Tensorboard.
 4. Clustering before quantization training, needless of manual clustering.
-5. Freezing of BN layer before activation quantization training (idea borrowed from [FQN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)).
-6. Removal of outlier using 3-sigma rule (also borrowed from [FQN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)).
+5. Freezing of BN layer during activation quantization training (idea borrowed from [FQN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)).
+6. Removal of outlier in clustering using 3-sigma rule (also borrowed from [FQN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)).
 
 
 ## Usage
