@@ -4,15 +4,21 @@
 from __future__ import absolute_import
 
 from .alexnet import *
-from .alexnet_all import *
 from .resnet import *
-from .resnet18_all import *
+from .simple import *
 
 __factory = {
     'alexnet': alexnet,
-    'alexnet_q': alexnet_q,
     'resnet18': resnet18,
-    'resnet18_q': resnet18_q,
+    'resnet34': resnet34,
+    'resnet50': resnet50,
+    'resnet20': resnet20,
+    'resnet32': resnet32,
+    'resnet44': resnet44,
+    'resnet56': resnet56,
+    'resnet110': resnet110,
+    'resnet1202': resnet1202,
+    'simplenet': simplenet
 }
 
 
